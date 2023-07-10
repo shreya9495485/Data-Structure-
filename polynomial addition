@@ -1,0 +1,13 @@
+from numpy.polynomial import polynomial as P
+
+# Declare Two Polynomials
+p1 = (4,1,6)
+p2 = (2,5,3)
+
+# Display the polynomials
+print("Polynomial 1...\n",p1)
+print("\nPolynomial 2...\n",p2)
+
+# To add one polynomial to another, use the numpy.polynomial.polynomial.polyadd() method in Python.
+sumRes = P.polyadd(p1,p2);
+print("\nResult (Sum)...\n",sumRes)
